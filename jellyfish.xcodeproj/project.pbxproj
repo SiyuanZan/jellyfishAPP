@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28AF938324254AEE00D40F05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AF938224254AEE00D40F05 /* AppDelegate.swift */; };
+		28AF938524254AEE00D40F05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AF938424254AEE00D40F05 /* SceneDelegate.swift */; };
+		28AF938724254AEE00D40F05 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AF938624254AEE00D40F05 /* ContentView.swift */; };
+		28AF938924254AF100D40F05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28AF938824254AF100D40F05 /* Assets.xcassets */; };
+		28AF938C24254AF100D40F05 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28AF938B24254AF100D40F05 /* Preview Assets.xcassets */; };
+		28AF938F24254AF100D40F05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28AF938D24254AF100D40F05 /* LaunchScreen.storyboard */; };
+		28AF939A24254AF100D40F05 /* jellyfishTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AF939924254AF100D40F05 /* jellyfishTests.swift */; };
+		28AF93A524254AF100D40F05 /* jellyfishUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AF93A424254AF100D40F05 /* jellyfishUITests.swift */; };
+		28AF93B324255A4500D40F05 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AF93B224255A4500D40F05 /* Home.swift */; };
+		28AF93B524255A5A00D40F05 /* Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AF93B424255A5A00D40F05 /* Bar.swift */; };
+		28AF93F9242598B500D40F05 /* Avenir Next.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 28AF93F8242598B400D40F05 /* Avenir Next.ttc */; };
+		28AF93FB24259F0400D40F05 /* HomeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AF93FA24259F0400D40F05 /* HomeDetail.swift */; };
+		28AF94412425E11600D40F05 /* VideoDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AF94402425E11600D40F05 /* VideoDetail.swift */; };
+		28AF94432425E15800D40F05 /* Video2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 28AF94422425E15800D40F05 /* Video2.mp4 */; };
+		28AF94452425E16500D40F05 /* video1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 28AF94442425E16500D40F05 /* video1.mp4 */; };
+		28AF94472425E6EE00D40F05 /* video3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 28AF94462425E6EE00D40F05 /* video3.mp4 */; };
+		28AF94492425E6F900D40F05 /* video4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 28AF94482425E6F900D40F05 /* video4.mp4 */; };
+		28AF944B2425E70A00D40F05 /* video5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 28AF944A2425E70A00D40F05 /* video5.mp4 */; };
+		28AF944D2425E8BA00D40F05 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AF944C2425E8BA00D40F05 /* Category.swift */; };
+		28AF94532426926A00D40F05 /* CategoryDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AF94522426926A00D40F05 /* CategoryDetail.swift */; };
+		28C833E024280543004D9C37 /* PictureDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C833DF24280543004D9C37 /* PictureDetail.swift */; };
+		28C833E224286EA7004D9C37 /* picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C833E124286EA7004D9C37 /* picture.swift */; };
+		28C833E8242893AF004D9C37 /* Hy.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 28C833E7242893AF004D9C37 /* Hy.mp4 */; };
+		28C833EA242893C1004D9C37 /* sc.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 28C833E9242893C1004D9C37 /* sc.mp4 */; };
+		28C833EC242893CB004D9C37 /* cu.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 28C833EB242893CB004D9C37 /* cu.mp4 */; };
+		28C833EE242893D9004D9C37 /* st.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 28C833ED242893D9004D9C37 /* st.mp4 */; };
+		28C833EF242894AA004D9C37 /* st.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 28C833ED242893D9004D9C37 /* st.mp4 */; };
+		28C833F0242894AF004D9C37 /* Hy.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 28C833E7242893AF004D9C37 /* Hy.mp4 */; };
+		28C833F1242894B4004D9C37 /* sc.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 28C833E9242893C1004D9C37 /* sc.mp4 */; };
+		28C833F2242894BC004D9C37 /* cu.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 28C833EB242893CB004D9C37 /* cu.mp4 */; };
+		28C833F524291722004D9C37 /* Hy.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 28C833E7242893AF004D9C37 /* Hy.mp4 */; };
+		28C833F624291729004D9C37 /* cu.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 28C833EB242893CB004D9C37 /* cu.mp4 */; };
+		28C833F724291730004D9C37 /* st.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 28C833ED242893D9004D9C37 /* st.mp4 */; };
+		28C833F824291734004D9C37 /* sc.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 28C833E9242893C1004D9C37 /* sc.mp4 */; };
+		28C8342A242968F5004D9C37 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C83429242968F5004D9C37 /* Search.swift */; };
+		28C8342C24296924004D9C37 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C8342B24296924004D9C37 /* SearchBar.swift */; };
+		28C8342E242A93E5004D9C37 /* PictureSave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C8342D242A93E5004D9C37 /* PictureSave.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28AF939624254AF100D40F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28AF937724254AEE00D40F05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28AF937E24254AEE00D40F05;
+			remoteInfo = jellyfish;
+		};
+		28AF93A124254AF100D40F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28AF937724254AEE00D40F05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28AF937E24254AEE00D40F05;
+			remoteInfo = jellyfish;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28AF937F24254AEE00D40F05 /* jellyfish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jellyfish.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28AF938224254AEE00D40F05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		28AF938424254AEE00D40F05 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		28AF938624254AEE00D40F05 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		28AF938824254AF100D40F05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28AF938B24254AF100D40F05 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		28AF938E24254AF100D40F05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28AF939024254AF100D40F05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28AF939524254AF100D40F05 /* jellyfishTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jellyfishTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28AF939924254AF100D40F05 /* jellyfishTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jellyfishTests.swift; sourceTree = "<group>"; };
+		28AF939B24254AF100D40F05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28AF93A024254AF100D40F05 /* jellyfishUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jellyfishUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28AF93A424254AF100D40F05 /* jellyfishUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jellyfishUITests.swift; sourceTree = "<group>"; };
+		28AF93A624254AF100D40F05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28AF93B224255A4500D40F05 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		28AF93B424255A5A00D40F05 /* Bar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bar.swift; sourceTree = "<group>"; };
+		28AF93F8242598B400D40F05 /* Avenir Next.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Avenir Next.ttc"; path = "../../Avenir Next.ttc"; sourceTree = "<group>"; };
+		28AF93FA24259F0400D40F05 /* HomeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetail.swift; sourceTree = "<group>"; };
+		28AF94402425E11600D40F05 /* VideoDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetail.swift; sourceTree = "<group>"; };
+		28AF94422425E15800D40F05 /* Video2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Video2.mp4; path = ../Video2.mp4; sourceTree = "<group>"; };
+		28AF94442425E16500D40F05 /* video1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = video1.mp4; path = ../video1.mp4; sourceTree = "<group>"; };
+		28AF94462425E6EE00D40F05 /* video3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = video3.mp4; path = ../video3.mp4; sourceTree = "<group>"; };
+		28AF94482425E6F900D40F05 /* video4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = video4.mp4; path = ../video4.mp4; sourceTree = "<group>"; };
+		28AF944A2425E70A00D40F05 /* video5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = video5.mp4; path = ../video5.mp4; sourceTree = "<group>"; };
+		28AF944C2425E8BA00D40F05 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		28AF94522426926A00D40F05 /* CategoryDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetail.swift; sourceTree = "<group>"; };
+		28C833DF24280543004D9C37 /* PictureDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureDetail.swift; sourceTree = "<group>"; };
+		28C833E124286EA7004D9C37 /* picture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = picture.swift; sourceTree = "<group>"; };
+		28C833E7242893AF004D9C37 /* Hy.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Hy.mp4; sourceTree = "<group>"; };
+		28C833E9242893C1004D9C37 /* sc.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sc.mp4; sourceTree = "<group>"; };
+		28C833EB242893CB004D9C37 /* cu.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cu.mp4; sourceTree = "<group>"; };
+		28C833ED242893D9004D9C37 /* st.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = st.mp4; sourceTree = "<group>"; };
+		28C83429242968F5004D9C37 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		28C8342B24296924004D9C37 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		28C8342D242A93E5004D9C37 /* PictureSave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureSave.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28AF937C24254AEE00D40F05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28AF939224254AF100D40F05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28AF939D24254AF100D40F05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28AF937624254AEE00D40F05 = {
+			isa = PBXGroup;
+			children = (
+				28AF944A2425E70A00D40F05 /* video5.mp4 */,
+				28AF94482425E6F900D40F05 /* video4.mp4 */,
+				28AF94462425E6EE00D40F05 /* video3.mp4 */,
+				28AF94442425E16500D40F05 /* video1.mp4 */,
+				28AF94422425E15800D40F05 /* Video2.mp4 */,
+				28AF938124254AEE00D40F05 /* jellyfish */,
+				28AF939824254AF100D40F05 /* jellyfishTests */,
+				28AF93A324254AF100D40F05 /* jellyfishUITests */,
+				28AF938024254AEE00D40F05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28AF938024254AEE00D40F05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28AF937F24254AEE00D40F05 /* jellyfish.app */,
+				28AF939524254AF100D40F05 /* jellyfishTests.xctest */,
+				28AF93A024254AF100D40F05 /* jellyfishUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28AF938124254AEE00D40F05 /* jellyfish */ = {
+			isa = PBXGroup;
+			children = (
+				28C833E7242893AF004D9C37 /* Hy.mp4 */,
+				28C833ED242893D9004D9C37 /* st.mp4 */,
+				28C833EB242893CB004D9C37 /* cu.mp4 */,
+				28C833E9242893C1004D9C37 /* sc.mp4 */,
+				28AF938224254AEE00D40F05 /* AppDelegate.swift */,
+				28AF938424254AEE00D40F05 /* SceneDelegate.swift */,
+				28AF93B224255A4500D40F05 /* Home.swift */,
+				28AF93FA24259F0400D40F05 /* HomeDetail.swift */,
+				28AF944C2425E8BA00D40F05 /* Category.swift */,
+				28AF94522426926A00D40F05 /* CategoryDetail.swift */,
+				28AF94402425E11600D40F05 /* VideoDetail.swift */,
+				28AF93B424255A5A00D40F05 /* Bar.swift */,
+				28AF938624254AEE00D40F05 /* ContentView.swift */,
+				28C833E124286EA7004D9C37 /* picture.swift */,
+				28C833DF24280543004D9C37 /* PictureDetail.swift */,
+				28C8342D242A93E5004D9C37 /* PictureSave.swift */,
+				28C83429242968F5004D9C37 /* Search.swift */,
+				28C8342B24296924004D9C37 /* SearchBar.swift */,
+				28AF938824254AF100D40F05 /* Assets.xcassets */,
+				28AF938D24254AF100D40F05 /* LaunchScreen.storyboard */,
+				28AF93F8242598B400D40F05 /* Avenir Next.ttc */,
+				28AF939024254AF100D40F05 /* Info.plist */,
+				28AF938A24254AF100D40F05 /* Preview Content */,
+			);
+			path = jellyfish;
+			sourceTree = "<group>";
+		};
+		28AF938A24254AF100D40F05 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				28AF938B24254AF100D40F05 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		28AF939824254AF100D40F05 /* jellyfishTests */ = {
+			isa = PBXGroup;
+			children = (
+				28AF939924254AF100D40F05 /* jellyfishTests.swift */,
+				28AF939B24254AF100D40F05 /* Info.plist */,
+			);
+			path = jellyfishTests;
+			sourceTree = "<group>";
+		};
+		28AF93A324254AF100D40F05 /* jellyfishUITests */ = {
+			isa = PBXGroup;
+			children = (
+				28AF93A424254AF100D40F05 /* jellyfishUITests.swift */,
+				28AF93A624254AF100D40F05 /* Info.plist */,
+			);
+			path = jellyfishUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28AF937E24254AEE00D40F05 /* jellyfish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28AF93A924254AF100D40F05 /* Build configuration list for PBXNativeTarget "jellyfish" */;
+			buildPhases = (
+				28AF937B24254AEE00D40F05 /* Sources */,
+				28AF937C24254AEE00D40F05 /* Frameworks */,
+				28AF937D24254AEE00D40F05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jellyfish;
+			productName = jellyfish;
+			productReference = 28AF937F24254AEE00D40F05 /* jellyfish.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28AF939424254AF100D40F05 /* jellyfishTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28AF93AC24254AF100D40F05 /* Build configuration list for PBXNativeTarget "jellyfishTests" */;
+			buildPhases = (
+				28AF939124254AF100D40F05 /* Sources */,
+				28AF939224254AF100D40F05 /* Frameworks */,
+				28AF939324254AF100D40F05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28AF939724254AF100D40F05 /* PBXTargetDependency */,
+			);
+			name = jellyfishTests;
+			productName = jellyfishTests;
+			productReference = 28AF939524254AF100D40F05 /* jellyfishTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		28AF939F24254AF100D40F05 /* jellyfishUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28AF93AF24254AF100D40F05 /* Build configuration list for PBXNativeTarget "jellyfishUITests" */;
+			buildPhases = (
+				28AF939C24254AF100D40F05 /* Sources */,
+				28AF939D24254AF100D40F05 /* Frameworks */,
+				28AF939E24254AF100D40F05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28AF93A224254AF100D40F05 /* PBXTargetDependency */,
+			);
+			name = jellyfishUITests;
+			productName = jellyfishUITests;
+			productReference = 28AF93A024254AF100D40F05 /* jellyfishUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28AF937724254AEE00D40F05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Siyuan Zan";
+				TargetAttributes = {
+					28AF937E24254AEE00D40F05 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					28AF939424254AF100D40F05 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 28AF937E24254AEE00D40F05;
+					};
+					28AF939F24254AF100D40F05 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 28AF937E24254AEE00D40F05;
+					};
+				};
+			};
+			buildConfigurationList = 28AF937A24254AEE00D40F05 /* Build configuration list for PBXProject "jellyfish" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28AF937624254AEE00D40F05;
+			productRefGroup = 28AF938024254AEE00D40F05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28AF937E24254AEE00D40F05 /* jellyfish */,
+				28AF939424254AF100D40F05 /* jellyfishTests */,
+				28AF939F24254AF100D40F05 /* jellyfishUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28AF937D24254AEE00D40F05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AF944B2425E70A00D40F05 /* video5.mp4 in Resources */,
+				28AF94492425E6F900D40F05 /* video4.mp4 in Resources */,
+				28AF94472425E6EE00D40F05 /* video3.mp4 in Resources */,
+				28AF94452425E16500D40F05 /* video1.mp4 in Resources */,
+				28AF94432425E15800D40F05 /* Video2.mp4 in Resources */,
+				28AF93F9242598B500D40F05 /* Avenir Next.ttc in Resources */,
+				28C833EA242893C1004D9C37 /* sc.mp4 in Resources */,
+				28C833E8242893AF004D9C37 /* Hy.mp4 in Resources */,
+				28AF938F24254AF100D40F05 /* LaunchScreen.storyboard in Resources */,
+				28C833EC242893CB004D9C37 /* cu.mp4 in Resources */,
+				28AF938C24254AF100D40F05 /* Preview Assets.xcassets in Resources */,
+				28AF938924254AF100D40F05 /* Assets.xcassets in Resources */,
+				28C833EE242893D9004D9C37 /* st.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28AF939324254AF100D40F05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28C833F2242894BC004D9C37 /* cu.mp4 in Resources */,
+				28C833F1242894B4004D9C37 /* sc.mp4 in Resources */,
+				28C833F0242894AF004D9C37 /* Hy.mp4 in Resources */,
+				28C833EF242894AA004D9C37 /* st.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28AF939E24254AF100D40F05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28C833F824291734004D9C37 /* sc.mp4 in Resources */,
+				28C833F724291730004D9C37 /* st.mp4 in Resources */,
+				28C833F624291729004D9C37 /* cu.mp4 in Resources */,
+				28C833F524291722004D9C37 /* Hy.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28AF937B24254AEE00D40F05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28C8342C24296924004D9C37 /* SearchBar.swift in Sources */,
+				28C833E224286EA7004D9C37 /* picture.swift in Sources */,
+				28C833E024280543004D9C37 /* PictureDetail.swift in Sources */,
+				28C8342E242A93E5004D9C37 /* PictureSave.swift in Sources */,
+				28AF93B524255A5A00D40F05 /* Bar.swift in Sources */,
+				28AF938324254AEE00D40F05 /* AppDelegate.swift in Sources */,
+				28AF94412425E11600D40F05 /* VideoDetail.swift in Sources */,
+				28AF938524254AEE00D40F05 /* SceneDelegate.swift in Sources */,
+				28AF93B324255A4500D40F05 /* Home.swift in Sources */,
+				28AF938724254AEE00D40F05 /* ContentView.swift in Sources */,
+				28AF94532426926A00D40F05 /* CategoryDetail.swift in Sources */,
+				28C8342A242968F5004D9C37 /* Search.swift in Sources */,
+				28AF93FB24259F0400D40F05 /* HomeDetail.swift in Sources */,
+				28AF944D2425E8BA00D40F05 /* Category.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28AF939124254AF100D40F05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AF939A24254AF100D40F05 /* jellyfishTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28AF939C24254AF100D40F05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AF93A524254AF100D40F05 /* jellyfishUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28AF939724254AF100D40F05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28AF937E24254AEE00D40F05 /* jellyfish */;
+			targetProxy = 28AF939624254AF100D40F05 /* PBXContainerItemProxy */;
+		};
+		28AF93A224254AF100D40F05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28AF937E24254AEE00D40F05 /* jellyfish */;
+			targetProxy = 28AF93A124254AF100D40F05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28AF938D24254AF100D40F05 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28AF938E24254AF100D40F05 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28AF93A724254AF100D40F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		28AF93A824254AF100D40F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28AF93AA24254AF100D40F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"jellyfish/Preview Content\"";
+				DEVELOPMENT_TEAM = 3TPFZBLPCJ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = jellyfish/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobilelab.jellyfish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28AF93AB24254AF100D40F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"jellyfish/Preview Content\"";
+				DEVELOPMENT_TEAM = 3TPFZBLPCJ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = jellyfish/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobilelab.jellyfish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		28AF93AD24254AF100D40F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3TPFZBLPCJ;
+				INFOPLIST_FILE = jellyfishTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobilelab.jellyfishTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jellyfish.app/jellyfish";
+			};
+			name = Debug;
+		};
+		28AF93AE24254AF100D40F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3TPFZBLPCJ;
+				INFOPLIST_FILE = jellyfishTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobilelab.jellyfishTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jellyfish.app/jellyfish";
+			};
+			name = Release;
+		};
+		28AF93B024254AF100D40F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3TPFZBLPCJ;
+				INFOPLIST_FILE = jellyfishUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobilelab.jellyfishUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = jellyfish;
+			};
+			name = Debug;
+		};
+		28AF93B124254AF100D40F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3TPFZBLPCJ;
+				INFOPLIST_FILE = jellyfishUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobilelab.jellyfishUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = jellyfish;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28AF937A24254AEE00D40F05 /* Build configuration list for PBXProject "jellyfish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28AF93A724254AF100D40F05 /* Debug */,
+				28AF93A824254AF100D40F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28AF93A924254AF100D40F05 /* Build configuration list for PBXNativeTarget "jellyfish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28AF93AA24254AF100D40F05 /* Debug */,
+				28AF93AB24254AF100D40F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28AF93AC24254AF100D40F05 /* Build configuration list for PBXNativeTarget "jellyfishTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28AF93AD24254AF100D40F05 /* Debug */,
+				28AF93AE24254AF100D40F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28AF93AF24254AF100D40F05 /* Build configuration list for PBXNativeTarget "jellyfishUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28AF93B024254AF100D40F05 /* Debug */,
+				28AF93B124254AF100D40F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28AF937724254AEE00D40F05 /* Project object */;
+}
